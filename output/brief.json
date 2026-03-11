@@ -1,0 +1,110 @@
+[
+  {
+    "tag": "Restaurants - Manque de fraîcheur",
+    "type": "Irritant / Point de rupture",
+    "group": "",
+    "count": 0,
+    "longDescription": "",
+    "pain_score": 7,
+    "clarity_score": 6,
+    "priority": 35,
+    "problematique": "Est-ce que le problème vient davantage de la qualité des ingrédients bruts, de la maîtrise culinaire (cuisson, assaisonnement), ou de la fraîcheur au moment du service, et comment cela change-t-il votre perception du casino ?",
+    "children_count": 0
+  },
+  {
+    "tag": "MAS (Machine à sous)",
+    "type": "Irritant / Point de rupture",
+    "group": "Jouer (JHA)",
+    "count": 1158,
+    "longDescription": "Les machines à sous ne sont pas assez payantes.",
+    "pain_score": 8,
+    "clarity_score": 7,
+    "priority": 32,
+    "problematique": "Avez-vous l'impression que les taux de retour des machines à sous sont équitables comparés à d'autres casinos ou jeux du même établissement, et cela affecte-t-il votre décision de revenir ?",
+    "children_count": 6
+  },
+  {
+    "tag": "Restaurants - Nourriture excellente",
+    "type": "Élément apprécié / Coup de coeur",
+    "group": "",
+    "count": 0,
+    "longDescription": "",
+    "pain_score": 1,
+    "clarity_score": 8,
+    "priority": 3,
+    "problematique": "Au-delà de la qualité des ingrédients, qu'est-ce qui rend certains plats mémorables pour vous : la créativité du menu, la technique de préparation, ou l'originalité des saveurs ?",
+    "children_count": 0
+  },
+  {
+    "tag": "Chambre",
+    "type": "Élément apprécié / Coup de coeur",
+    "group": "Séjourner dans un complexe",
+    "count": 875,
+    "longDescription": "Le lit est confortable et assure une bonne nuit de sommeil.",
+    "pain_score": 1,
+    "clarity_score": 8,
+    "priority": 3,
+    "problematique": "Au-delà du confort du lit, quels autres éléments de la chambre (propreté, silence, température, équipements) influencent votre qualité de sommeil et votre satisfaction globale du séjour ?",
+    "children_count": 5
+  },
+  {
+    "tag": "Restaurants - Service impeccable",
+    "type": "Élément apprécié / Coup de coeur",
+    "group": "",
+    "count": 0,
+    "longDescription": "",
+    "pain_score": 1,
+    "clarity_score": 8,
+    "priority": 3,
+    "problematique": "Quel aspect du service vous marque le plus : la disponibilité du personnel, son expertise sur les plats, sa courtoisie, ou sa capacité à anticiper vos besoins ?",
+    "children_count": 0
+  },
+  {
+    "tag": "Restos, bars et salons - Aliments délicieux",
+    "type": "Élément apprécié / Coup de coeur",
+    "group": "",
+    "count": 0,
+    "longDescription": "",
+    "pain_score": 1,
+    "clarity_score": 8,
+    "priority": 3,
+    "problematique": "Quels plats ou types de cuisine vous ont le plus marqué, et qu'est-ce qui les différencie de vos expériences culinaires habituelles ?",
+    "children_count": 0
+  },
+  {
+    "tag": "Employés séjour dans un complexe",
+    "type": "Élément apprécié / Coup de coeur",
+    "group": "Séjourner dans un complexe",
+    "count": 661,
+    "longDescription": "L'équipe est professionnelle et dévouée.",
+    "pain_score": 1,
+    "clarity_score": 8,
+    "priority": 3,
+    "problematique": "Quelles actions ou attitudes spécifiques du personnel vous ont marqué et créé une connexion émotionnelle positive avec votre expérience de séjour ?",
+    "children_count": 6
+  },
+  {
+    "tag": "Employés fin de visite",
+    "type": "Élément apprécié / Coup de coeur",
+    "group": "Terminer sa visite",
+    "count": 561,
+    "longDescription": "Le service offert est exceptionnel selon l'expérience des clients.",
+    "pain_score": 1,
+    "clarity_score": 8,
+    "priority": 3,
+    "problematique": "Comment le service en fin de visite influence-t-il votre perception globale du casino et votre intention de revenir, comparé aux autres moments de votre expérience ?",
+    "children_count": 4
+  },
+  {
+    "tag": "Ambiance générale",
+    "type": "Élément apprécié / Coup de coeur",
+    "group": "Se divertir et socialiser",
+    "count": 4196,
+    "longDescription": "L'atmosphère est agréable et relaxante.",
+    "pain_score": 1,
+    "clarity_score": 9,
+    "priority": 2,
+    "problematique": "Quels éléments spécifiques de l'ambiance (décoration, bruit, luminosité, densité de foule) contribuent le plus à cette sensation de relaxation et de convivialité que vous recherchez lors de vos visites ?",
+    "children_count": 6
+  }
+]

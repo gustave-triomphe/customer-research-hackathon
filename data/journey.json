@@ -1,0 +1,398 @@
+{
+  "name": "Parcours client",
+  "description": "Parcours client",
+  "tagGroups": [
+    {
+      "name": "Profiter des privilèges HM",
+      "description": "Étape réservée aux clients VIP, avec des espaces exclusifs, un service personnalisé, des événements exclusifs (Jardin HM, Soirée des fêtes, BBQ, Bateau mouche, chef invité, Feux d’artifices, Soirée en blanc...) et des offres spéciales selon leur statut. Les privilèges valorisent la fidélité du client envers la marque.",
+      "tags": [
+        {
+          "name": "Comptoir HM (haute mise)",
+          "description": "Espace d'accueil réservé aux joueurs VIP où un service rapide et personnalisé lui est offert.",
+          "order": 33
+        },
+        {
+          "name": "Salon HM",
+          "description": "Espace dédié aux clients VIP pour se détendre, manger et boire gratuitement.",
+          "order": 34
+        },
+        {
+          "name": "HE (haut exécutif) /CEL (concierge en ligne)",
+          "description": "Employée dédiée aux clients VIP",
+          "order": 35
+        },
+        {
+          "name": "Offres et événements exclusifs",
+          "description": "CONCERNE LES MENTIONS Jardin HM, Soirée des fêtes, BBQ, Bateau mouche, chef invité, Feux d’artifices, Soirée en blanc, etc. Les clients VIP reçoivent des avantages et participent à des événements exclusifs en fonction de leur statut. Ils sont identifiés en début de commentaire à l'aide d'une mention et sont systématiquement associés aux HM dans les métadonnées du commentaire. Le client peut parler de l'ambiance, de la déco...",
+          "order": 36
+        }
+      ]
+    },
+    {
+      "name": "Séjourner dans un complexe",
+      "description": "UNIQUEMENT DANS L'HOTEL. Lorsqu'un commentaire commence par une note sur 5 (ex : 4 sur 5). Cette étape regroupe l’ensemble des expériences vécues par le client lorsqu’il prolonge sa visite en séjournant à l’hôtel. Elle inclut l’accueil à la réception, l’accès à la chambre, ainsi que l’utilisation des services et installations du complexe (spa, gym, piscine, restauration, etc.). Le séjour permet de bonifier l’expérience globale, de favoriser la détente et de créer un lien émotionnel fort avec l’établissement.",
+      "tags": [
+        {
+          "name": "Valet",
+          "description": "UNIQUEMENT DANS L'HOTEL. Lorsqu'un commentaire commence par une note sur 5 (ex : 4 sur 5). Une personne dont le rôle est d’offrir un service personnalisé ou logistique, généralement dans un cadre haut de gamme. Le terme peut désigner différents postes selon le secteur.",
+          "order": 49
+        },
+        {
+          "name": "Réception",
+          "description": "UNIQUEMENT DANS L'HOTEL. Lorsqu'un commentaire commence par une note sur 5 (ex : 4 sur 5). Le service d’accueil principal où les clients sont pris en charge à leur arrivée, pendant leur séjour et à leur départ. C’est un point de contact central entre l’établissement et sa clientèle",
+          "order": 50
+        },
+        {
+          "name": "Chambre",
+          "description": "UNIQUEMENT DANS L'HOTEL. Lorsqu'un commentaire commence par une note sur 5 (ex : 4 sur 5). Espace privé mis à disposition des clients dans un établissement hôtelier pour une occupation temporaire, généralement à des fins de repos, de sommeil et de confort pendant un voyage ou un séjour. Tous les commentaires généraux sont à classifier dans ce point contact : \"L’hôtel est beau\", \"L’hôtel est bien situé\"",
+          "order": 51
+        },
+        {
+          "name": "Restos, bars et salons",
+          "description": "UNIQUEMENT DANS L'HOTEL. Lorsqu'un commentaire commence par une note sur 5 (ex : 4 sur 5). L'ensemble des restaurants, bars et salons VIP offerts aux clients dans l'hôtel durant leur séjour. On privilégiera ce point contact y compris pour les commentaires liés aux employés rattachés aux restos, bars et salons.",
+          "order": 52
+        },
+        {
+          "name": "Activités",
+          "description": "UNIQUEMENT DANS L'HOTEL. Lorsqu'un commentaire commence par une note sur 5 (ex : 4 sur 5). L’ensemble des services de loisirs, de détente ou d’animation proposés aux clients durant leur séjour, en complément de l’hébergement et de la restauration. Ex : Piscine, Gym, marche autour du lac / marche, golf, spa etc.",
+          "order": 53
+        },
+        {
+          "name": "Congrès/Banquet",
+          "description": "UNIQUEMENT DANS L'HOTEL. Lorsqu'un commentaire commence par une note sur 5 (ex : 4 sur 5). Un congrès/banquet est un événement formel et organisé qui réunit un grand nombre de participants autour d’un thème commun, généralement à caractère professionnel, scientifique, académique ou associatif. Un repas est organisé pour ce groupe de personne.",
+          "order": 54
+        },
+        {
+          "name": "Employés séjour dans un complexe",
+          "description": "UNIQUEMENT DANS L'HOTEL. Lorsqu'un commentaire commence par une note sur 5 (ex : 4 sur 5). Un employé est une personne qui travaille pour l'entreprise avec le client peut avoir une interraction positive ou négative. L’employé exécute des tâches ou des fonctions précises définies par l’organisation.",
+          "order": 55
+        }
+      ]
+    },
+    {
+      "name": "Prendre une pause",
+      "description": "Moment où le client peut ralentir le rythme, il peut se détendre, boire un breuvage, aller au fumoir, ou s’informer sur le jeu responsable. Cette étape favorise l’équilibre de l’expérience.",
+      "tags": [
+        {
+          "name": "Fumoir",
+          "description": "Endroit réservé à la consommation du tabac sous divers formes.",
+          "order": 45
+        },
+        {
+          "name": "Station libre-service",
+          "description": "Espace ou le client peut se servir lui-même une boisson non alcoolisée offerte gratuitement.",
+          "order": 46
+        },
+        {
+          "name": "La Base",
+          "description": "Aire d'initiation aux machines à sous. Il s'agit d'un environnement permettant au joueur de se familiariser avec les machines, d'apprendre les règles de base dans un environnement éducatif.",
+          "order": 47
+        },
+        {
+          "name": "Bien jouer",
+          "description": "Programme qui permet au joueur d'avoir de l'information détaillée afin qu'il comprenne la notion de hasard, qu'il reçoive des conseils pour évaluer ses habitudes et des outils pour fixer ses limites de jeu.",
+          "order": 48
+        }
+      ]
+    },
+    {
+      "name": "Terminer sa visite",
+      "description": "Le client finalise ses interactions, récupère ses effets personnels, partage son expérience via la voix du client, et prépare son départ. C’est l’étape de clôture du parcours du client.",
+      "tags": [
+        {
+          "name": "Employés fin de visite",
+          "description": "Un employé est une personne qui travaille pour l'entreprise avec le client peut avoir une interraction positive ou négative. L’employé exécute des tâches ou des fonctions précises définies par l’organisation.",
+          "order": 56
+        },
+        {
+          "name": "Caisse/GCP départ",
+          "description": "Les caisses/terminaux/comptoirs billets offrent un service complet et personnalisé permettant au client d’effectuer des transactions monétaires. Le GCP favorise l'autonomie du client et permet d’encaisser, entre autre, les coupons Ticket in ticket out (TITO) et d’effectuer des retraits bancaires.",
+          "order": 57
+        },
+        {
+          "name": "Vestiaire départ",
+          "description": "Lieu ou le client récupère ses effets personnels en tout temps et en toute sécurité.",
+          "order": 58
+        },
+        {
+          "name": "Sortie",
+          "description": "Le client se dirige à l'une des sorties pour quitter l'établissement et terminer sa visite.",
+          "order": 59
+        },
+        {
+          "name": "Votie",
+          "description": "Par l'entremise d'un code QR ou d'un lien, le client partage ses commentaires en lien avec l'expérience qu'il a vécu et peut demander de faire un suivi s'il le désir.",
+          "order": 60
+        }
+      ]
+    },
+    {
+      "name": "Se divertir et socialiser",
+      "description": "Activités complémentaires au jeu, qui permettent de se détendre, manger, boire, assister à des spectacles, ou participer à des promotions. Cette étape contribue à la richesse globale de l’expérience.",
+      "tags": [
+        {
+          "name": "Club",
+          "description": "Espace de divertissement nocturne où les gens se rassemblent pour danser, écouter de la musique (souvent jouée par un DJ), socialiser et consommer des boissons.",
+          "order": 37
+        },
+        {
+          "name": "Salle de spectacle",
+          "description": "Le cabaret et le Théâtre sont des endroits où les clients peuvent aller voir des représentations artistiques payantes (achat de ticket en ligne ou à la billetterie) telles que des concerts, des spectacles d'humour ou des diffusions d'événements sportifs. Il s'agit d'une salle indépendante, le client va nommer un groupe ou un spectacle particulier, il va parler des sièges, de la vue du spectacle ou d'autres clients bruyants...",
+          "order": 38
+        },
+        {
+          "name": "Non JHA (jeux de hasard et d'argent)",
+          "description": "",
+          "order": 39
+        },
+        {
+          "name": "Promotions & événements",
+          "description": "Activités ciblées ou non comportant une notion de hasard par un tirage, proposées aux membres du programme Casino+.",
+          "order": 40
+        },
+        {
+          "name": "Ambiance générale",
+          "description": "Perception sensorielle et émotionnelle globale que ressent le client lorsqu'il est immergé dans l'environnement du casino. Elle résulte d'un ensemble cohérent de stimuli (température, visuels, sonores non liés aux spectacles chanteurs ou groupes, olfactifs, sociaux). Cette catégorie intègre également tous les retours généralistes : \"super\",\"bof\"",
+          "order": 41
+        },
+        {
+          "name": "Spectacles gratuits",
+          "description": "Représentation artistique accessible au public sans frais d'entrée directement dans le casino. Les spectacles gratuit peuvent être des chanteurs, des groupes de musique ou des spectacles humoristiques.",
+          "order": 42
+        },
+        {
+          "name": "Bars",
+          "description": "Endroit où le client peut aller se commander une boisson alcoolisée ou non. Ces boissons sont servies par un barman",
+          "order": 43
+        },
+        {
+          "name": "Restaurants",
+          "description": "Sujets liés aux restaurants : qualité des plats ou repas préparés sur place , du service à table ou en libre-service (buffet), de l'ambiance, du paiement...",
+          "order": 44
+        }
+      ]
+    },
+    {
+      "name": "Gagner",
+      "description": "Lorsque le client gagne, il peut voir ses gains affichés, les réclamer, et parfois vivre une célébration personnalisée. Cela renforce la reconnaissance et la satisfaction du client.",
+      "tags": [
+        {
+          "name": "Affichage",
+          "description": "Présentation visuelle des informations liées aux gains, dont l’affichage des montants gagnés.",
+          "order": 30
+        },
+        {
+          "name": "Réclamation",
+          "description": "Afin de réclamer son gain, le joueur échange sont ticket (TITO) à la caisse ou à la machine ou recevoir un chèque par un préposé si le montant est de 10 000 $ et plus.",
+          "order": 31
+        },
+        {
+          "name": "Célébration",
+          "description": "Moments où les gains des clients sont célébrés de façon festive, à travers des annonces publiques, des animations visuelles ou sonores, et des interactions personnalisées par les employés pour féliciter le gagnant.",
+          "order": 32
+        }
+      ]
+    },
+    {
+      "name": "Jouer (JHA)",
+      "description": "C’est l’étape au cœur de l’expérience pour le client au casino. Le client participe aux différentes formes de jeu proposées (machines à sous, tables de jeu, poker, zone, etc.), tout en pouvant consommer ou interagir avec le personnel.",
+      "tags": [
+        {
+          "name": "Service de consommation",
+          "description": "Un bar mobile est disponible pour la clientèle qui souhaite commander une consommation, sans interrompre son activité de jeu.",
+          "order": 22
+        },
+        {
+          "name": "Loterie",
+          "description": "Les jeux de loterie sont offerts par l'intermédiaire d'une distributrice ou d'un préposé au kiosque. Le client peut aussi demander un remboursement de gain de moins de 600 $.",
+          "order": 23
+        },
+        {
+          "name": "Pari sportif",
+          "description": "Mises effectuer par le client sur des événements sportifs, des bornes interactives, sur l'application mobile ou par l'intermédiaire d'un préposé au kiosque de loterie.",
+          "order": 24
+        },
+        {
+          "name": "Poker",
+          "description": "Un salon OK poker est accessible dans tous les établissement et permet au client de participer à des tournois et des cash game. Il peut acheter des jetons, s'inscrire à une liste d'attente, et regarder les événements sportifs offerts.",
+          "order": 25
+        },
+        {
+          "name": "Zone",
+          "description": "Zone de jeu dans laquelle les tables de jeux sont électroniques/écrans, les mises sont faibles, un animateur (Préposé aux AJE) interagit avec les clients en simultané pour s'amuser et apprendre.",
+          "order": 26
+        },
+        {
+          "name": "TDJ (Table de jeux)",
+          "description": "Tables de jeux traditionnels dirigées par un croupier, sur lesquelles le client joue au blackjack, à la roulette ou au baccarat, en compagnie d’autres joueurs, dans une ambiance conviviale où des clients peuvent également observer le déroulement du jeu.",
+          "order": 27
+        },
+        {
+          "name": "MAS (Machine à sous)",
+          "description": "Tous les commentaires qui parlent de machines. Il s'agit de machines à sous modernes ou plus anciennes avec des mises différentes, disponibles dans tous les établissements. Les clients peuvent se plaindre qu'elles ne sont pas assez payantes (mauvais taux de retour), modernes...",
+          "order": 28
+        },
+        {
+          "name": "AJE (appareils de jeux électroniques)",
+          "description": "Tables de jeux interactives sans croupier à faible dénomination, diversifiées et facile d’utilisation.",
+          "order": 29
+        }
+      ]
+    },
+    {
+      "name": "Débuter sa visite",
+      "description": "Le moment où  le client prend ses repères dans l’établissement et accède aux premiers services essentiels (salle de bain, caisses, service à la clientèle). Il est en mode exploration seul ou accompagné pour découvrir l’offre.",
+      "tags": [
+        {
+          "name": "SDB",
+          "description": "Situées à des points stratégiques dans l'établissement, les salles de bains sont accessibles à tout type de personnes et offre un environnement fonctionnel; sèche-mains, savons, miroirs, etc.",
+          "order": 16
+        },
+        {
+          "name": "Explorer",
+          "description": "Le client découvre librement l’offre de jeux et de divertissement de l’établissement. L’accès à ces informations est facilité et disponible à tout moment, lui permettant d’explorer les différentes options selon ses envies.",
+          "order": 18
+        },
+        {
+          "name": "Club CP",
+          "description": "Le Club Casino+ propose des avantages exclusifs à ses membres tous les mois, tels que des offres hébergement, une offre anniversaire, des rabais dans les restaurants, etc. Le client peut y adhérer de façon autonome via des bornes ou accompagné d'un préposé au comptoir du service à la clientèle (SAC). Certaines offres sont envoyées de façon aléatoire aux membres (groupe contrôle ou groupe test). Les membres du Club CP ont une carte, certains membres du club CP sont HM (Haute-Mise) mais pas tous. ",
+          "order": 19
+        },
+        {
+          "name": "Comptoir SAC",
+          "description": "Un point d'assistance spécialement conçu pour répondre aux questions, résoudre les problèmes et offrir des conseils.",
+          "order": 20
+        },
+        {
+          "name": "Bornes/app mobile",
+          "description": "Les clients peuvent utiliser ces outils interactifs pour accéder à toutes les informations de leur compte en tant que membre Casino+ et gérer leurs transactions. Ils peuvent aussi adhérer au programme s'ils ne sont pas encore membres.",
+          "order": 21
+        }
+      ]
+    },
+    {
+      "name": "Quitter",
+      "description": "Le client quitte physiquement l’établissement en utilisant un moyen de transport. L’objectif est d’assurer une sortie fluide, sécuritaire et agréable, en cohérence avec l’ensemble de l’expérience vécue.",
+      "tags": [
+        {
+          "name": "Stationnement départ",
+          "description": "Espace dédié où le client peut garer son véhicule en toute sécurité, avec des zones spécifiques pour les véhicules standards, électriques, les personnes à mobilité réduite et/ou les clients Hautes Mises (HM). Ce service peut être gratuit ou payant selon l’établissement.",
+          "order": 61
+        },
+        {
+          "name": "Groupe autobus départ",
+          "description": "L'aurevoir et la gestion des clients quittant en groupes organisés.",
+          "order": 62
+        },
+        {
+          "name": "Mode de transport retour (taxi, auto, groupe autobus, vélo)",
+          "description": "Moyens de transports utilisés par le client pour se déplacer jusqu'à chez lui.",
+          "order": 63
+        },
+        {
+          "name": "Signalisation routière départ",
+          "description": "Indications claires et visibles pour guider le client vers la sortie. Cela inclut les panneaux routiers, les directions sur GPS ou les applications de navigation, et toute signalétique facilitant l’accès du client.",
+          "order": 64
+        },
+        {
+          "name": "Accessibilité/Circulation départ",
+          "description": "Aspects liés aux déplacements du client pour quitter l’établissement. Cela inclut la facilité, la fluidité de circulation autour de l’établissement, ainsi que l’accessibilité pour tous, notamment les personnes à mobilité réduite.",
+          "order": 65
+        }
+      ]
+    },
+    {
+      "name": "Arriver (extérieur/intérieur)",
+      "description": "Le client entre dans l’univers de l’établissement. Cette étape inclut le premier contact visuel et émotionnel, le stationnement, l’entrée et les services d’accueil. Elle façonne les premières impressions du client. C'est le moment de lui faire vivre une émotion forte et de l'accueillir de façon mémorable.",
+      "tags": [
+        {
+          "name": "Allée/Marquise",
+          "description": "Le premier regard que pose le client sur l'établissement lors de son arrivée. L'occasion de lui faire vivre une émotion forte, de l'accueillir de façon mémorable. Offre un endroit sécuritaire pour attendre un mode de transport, un proche ou autre, à l'abri des intempéries.",
+          "order": 10
+        },
+        {
+          "name": "Signalisation",
+          "description": "Ensemble d'éléments visuels, tels que panneaux et affichages, conçus pour orienter et guider les visiteurs pour se rendre à l'établissement.",
+          "order": 11
+        },
+        {
+          "name": "Stationnement arrivée",
+          "description": "Espace dédié où le client peut garer son véhicule en toute sécurité, avec des zones spécifiques pour les véhicules standards, électriques, les personnes à mobilité réduite et/ou les clients Hautes Mises (HM). Ce service peut être gratuit ou payant selon l’établissement.",
+          "order": 12
+        },
+        {
+          "name": "Entrée",
+          "description": "Chaque entrée du casino offre un accueil chaleureux et immersif, plongeant le client dans une ambiance spectaculaire. Ces espaces sont conçus pour créer une première impression marquante et inviter le client à découvrir l’univers du jeu et du divertissement.",
+          "order": 13
+        },
+        {
+          "name": "Sécurité",
+          "description": "Présent à l’entrée, l’agent de sécurité accueille les clients tout en assurant un contrôle d’accès, notamment pour empêcher l’entrée des mineurs ou des personnes autoexclues. Il veille également au respect des règles de l’établissement, comme le code vestimentaire, garantissant ainsi un environnement sécuritaire et conforme aux normes. La notion d'agent dans un commentaire fait systématiquement référence à ce point contact.",
+          "order": 14
+        },
+        {
+          "name": "Vestiaire arrivée",
+          "description": "Lieu ou le client peut déposer ses effets personnels en tout temps et en toute sécurité.",
+          "order": 15
+        }
+      ]
+    },
+    {
+      "name": "Se déplacer",
+      "description": "Il s’agit de tous les aspects liés à la planification et au trajet pour se rendre à l’établissement : accessibilité, signalisation, mode de transport, etc. Le but est de garantir une arrivée fluide et sans friction.",
+      "tags": [
+        {
+          "name": "Accessibilité/Circulation arrivée",
+          "description": "Aspects liés aux déplacements du client pour se rendre à l’établissement. Cela inclut la facilité à trouver l’endroit, la fluidité de circulation autour de l’établissement, ainsi que l’accessibilité pour tous, notamment les personnes à mobilité réduite.",
+          "order": 6
+        },
+        {
+          "name": "Signalisation routière arrivée",
+          "description": "Indications claires et visibles pour guider le client vers l’établissement. Cela inclut les panneaux routiers, les directions sur GPS ou les applications de navigation, et toute signalétique facilitant l’accès du client.",
+          "order": 7
+        },
+        {
+          "name": "Mode de transport aller (taxi, auto, groupe autobus, vélo)",
+          "description": "Moyens de transports utilisés par le client pour se déplacer jusqu'à l’établissement.",
+          "order": 8
+        },
+        {
+          "name": "Groupe autobus arrivée",
+          "description": "L’accueil et la gestion des clients arrivant en groupes organisés.",
+          "order": 9
+        }
+      ]
+    },
+    {
+      "name": "Explorer/Déclencher",
+      "description": "C’est le moment où le client découvre l’existence de l’établissement et de son offre, que ce soit par des publicités, des recommandations, ou en consultant des outils numériques. Cette étape déclenche l’intention de visite.",
+      "tags": [
+        {
+          "name": "Publicité",
+          "description": "Ensemble des messages et supports promotionnels destinés à capter l’attention des clients potentiels, susciter leur intérêt et les inciter à explorer l’offre. Cela inclut les annonces digitales, les affiches, la télévision, la radio, les journaux ou les groupe autobus, qui influencent la perception de la marque et peuvent déclencher une intention de visite.",
+          "order": 1
+        },
+        {
+          "name": "Communications ciblées",
+          "description": "Le Club Casino+ et/ou le Hautes exécutifs (HE) utilisent des médiums pour transmettre au client des informations personnalisées, promouvoir des offres, ou renforcer la relation client.",
+          "order": 2
+        },
+        {
+          "name": "Humains",
+          "description": "Le client est influencé par l'expérience d'un proche, d'un ami, d'un employé, d'une histoire sur les médias sociaux, etc. et le pousse à envisager une visite dans nos établissements.",
+          "order": 3
+        },
+        {
+          "name": "Site web / App mobile",
+          "description": "Plateforme en ligne où le client découvre l’offre, s’informe et interagit avec la marque, influençant ainsi sa décision de visite.",
+          "order": 4
+        },
+        {
+          "name": "CRC (centre relation client)",
+          "description": "Correspond aux moments où un client interagit avec le service client pour poser des questions, résoudre un problème, ou obtenir de l’aide. Cela peut se faire par téléphone, chat en ligne et courriel. Cette interaction peut se faire avant, pendant ou après la visite, par exemple pour vérifier une réservation, signaler un souci, retrouver un objet perdu, etc.",
+          "order": 5
+        }
+      ]
+    }
+  ]
+}
