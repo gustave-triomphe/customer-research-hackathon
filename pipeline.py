@@ -20,8 +20,8 @@ DATA_PATH = "data/data.json"
 JOURNEY_PATH = "data/journey.json"
 OUTPUT_JSON = "output/brief.json"
 OUTPUT_MD = "output/brief.md"
-MIN_COUNT = 100
-BATCH_SIZE = 8
+MIN_COUNT = 500
+BATCH_SIZE = 10
 MODEL = "claude-haiku-4-5"
 
 # --- System prompt for scoring LLM ---
