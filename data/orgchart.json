@@ -1,0 +1,68 @@
+{
+  "entreprise": "Casino Pompizino",
+  "organigramme": [
+    {
+      "role": "Directeur général",
+      "nom": "Marc-Antoine Pellerin",
+      "departement": "Direction générale",
+      "responsabilites": ["Stratégie globale", "Relations institutionnelles", "P&L global"],
+      "rapports_directs": ["Directrice des opérations de jeu", "Directeur de la restauration", "Directrice de l'hébergement", "Directeur du divertissement", "Directrice marketing et expérience client", "Directeur des ressources humaines", "Directeur de la sécurité"]
+    },
+    {
+      "role": "Directrice des opérations de jeu",
+      "nom": "Sophie Tremblay",
+      "departement": "Jeux",
+      "responsabilites": ["Machines à sous", "Tables de jeu", "Poker", "Paris sportifs", "Loteries", "Taux de redistribution", "Configuration du plancher de jeu"],
+      "rapports_directs": ["Chef de section MAS", "Chef de section tables", "Superviseur poker", "Coordonnateur paris sportifs"]
+    },
+    {
+      "role": "Directeur de la restauration",
+      "nom": "Jean-François Dubois",
+      "departement": "Restauration",
+      "responsabilites": ["Carte et menus", "Qualité des plats", "Fournisseurs alimentaires", "Brigade de cuisine", "Buffets", "Bars", "Service en salle"],
+      "rapports_directs": ["Chef exécutif", "Maître d'hôtel", "Responsable des bars", "Gestionnaire buffet"]
+    },
+    {
+      "role": "Directrice de l'hébergement",
+      "nom": "Isabelle Moreau",
+      "departement": "Hébergement",
+      "responsabilites": ["Chambres", "Réception", "Conciergerie", "Entretien ménager", "Service aux chambres", "Congrès et banquets"],
+      "rapports_directs": ["Chef de réception", "Gouvernante en chef", "Responsable congrès"]
+    },
+    {
+      "role": "Directeur du divertissement",
+      "nom": "Alexandre Roy",
+      "departement": "Divertissement et ambiance",
+      "responsabilites": ["Spectacles", "Programmation artistique", "Ambiance générale", "Éclairage et son", "Événements spéciaux", "Club et vie nocturne"],
+      "rapports_directs": ["Programmateur artistique", "Régisseur technique", "Coordonnateur événements"]
+    },
+    {
+      "role": "Directrice marketing et expérience client",
+      "nom": "Catherine Lavoie",
+      "departement": "Marketing et CX",
+      "responsabilites": ["Programme de fidélité", "Promotions", "Communications ciblées", "Analyse de la satisfaction", "Parcours client", "Club privilèges", "Site web et app mobile"],
+      "rapports_directs": ["Responsable programme fidélité", "Analyste CX", "Coordonnatrice communications"]
+    },
+    {
+      "role": "Directeur des ressources humaines",
+      "nom": "Pierre-Luc Gagnon",
+      "departement": "Ressources humaines",
+      "responsabilites": ["Recrutement", "Formation", "Engagement employés", "Qualité du service client", "Standards de courtoisie"],
+      "rapports_directs": ["Responsable formation", "Partenaire RH opérations"]
+    },
+    {
+      "role": "Directeur de la sécurité",
+      "nom": "François Bouchard",
+      "departement": "Sécurité",
+      "responsabilites": ["Sécurité physique", "Contrôle d'accès", "Surveillance vidéo", "Conformité réglementaire", "Jeu responsable"],
+      "rapports_directs": ["Chef d'équipe sécurité", "Agent de conformité"]
+    },
+    {
+      "role": "Responsable des installations",
+      "nom": "Nathalie Côté",
+      "departement": "Installations et maintenance",
+      "responsabilites": ["Stationnement", "Signalisation", "Entretien des espaces", "Propreté", "Fumoir", "Accessibilité", "Vestiaire"],
+      "rapports_directs": ["Superviseur entretien", "Technicien maintenance"]
+    }
+  ]
+}
